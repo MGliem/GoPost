@@ -95,11 +95,11 @@ elseif (LOCALE == "deDE") then
     L[Strings.FMT_PURCHASED_SINGLE] = "Sie haben den Artikel %s für %s gekauft"
     L[Strings.FMT_PURCHASED_MULTIPLE] = "Sie haben den Artikel %s für jeweils %s gekauft"
     L[Strings.FMT_EXPIRED_ITEM] = "Ihr bekommt einen Gegenstand: %s. Auktion abgelaufen."
-    L[Strings.FMT_CANCELLED_ITEM] = "Ihr erhaltet den Gegenstand: %sx%s. Auktion Abgebrochen."
+    L[Strings.FMT_CANCELLED_ITEM] = "Ihr erhaltet den Gegenstand: %s %s. Auktion Abgebrochen."
 
     L[Strings.FMT_RECEIVE_MONEY] = "Sie erhalten %s"
-    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Sie erhalten %s für %sx%s"
-    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Sie erhalten %s für %sx%s (je %s)"
+    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Sie erhalten %s für %s %s"
+    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Sie erhalten %s für %s %s (je %s)"
 
     L["Open All"] = "Öffne alle"
     L["Collect"] = "Sammeln"
@@ -128,14 +128,14 @@ elseif (LOCALE == "esES" or LOCALE == "esMX") then
     L[Strings.AUCTION_SOLD_PREFIX] = "^Subasta conseguida"
     L[Strings.AUCTION_WON_PREFIX] = "^Subasta ganada"
 
-    L[Strings.FMT_PURCHASED_SINGLE] = "Usted compró el artículo %sx%s por %s"
+    L[Strings.FMT_PURCHASED_SINGLE] = "Usted compró el artículo %s %s por %s"
     L[Strings.FMT_PURCHASED_MULTIPLE] = "Usted compró el artículo %s por %s cada uno"
     L[Strings.FMT_EXPIRED_ITEM] = "Recibes: %s. Expirado subasta."
-    L[Strings.FMT_CANCELLED_ITEM] = "Recibes: %sx%s. Cancelado subasta."
+    L[Strings.FMT_CANCELLED_ITEM] = "Recibes: %s %s. Cancelado subasta."
 
     L[Strings.FMT_RECEIVE_MONEY] = "Recibes %s"
-    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Recibes %s por %sx%s"
-    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Recibes %s por %sx%s (%s cada uno)"
+    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Recibes %s por %s %s"
+    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Recibes %s por %s %s (%s cada uno)"
 
     L["Open All"] = "Abrir todo"
     L["Collect"] = "Recoger"
@@ -164,14 +164,14 @@ elseif (LOCALE == "frFR") then
     L[Strings.AUCTION_SOLD_PREFIX] = "^Vente aux enchères réussie"
     L[Strings.AUCTION_WON_PREFIX] = "^Vente gagnée"
 
-    L[Strings.FMT_PURCHASED_SINGLE] = "Vous avez acheté %sx%s à %s"
+    L[Strings.FMT_PURCHASED_SINGLE] = "Vous avez acheté %s %s à %s"
     L[Strings.FMT_PURCHASED_MULTIPLE] = "Vous avez acheté %s à %s pièce"
     L[Strings.FMT_EXPIRED_ITEM] = "Vous recevez l'objet : %s. Vente aux enchères Expiré."
-    L[Strings.FMT_CANCELLED_ITEM] = "Vous recevez l'objet : %sx%s. Vente aux enchères annulée."
+    L[Strings.FMT_CANCELLED_ITEM] = "Vous recevez l'objet : %s %s. Vente aux enchères annulée."
 
     L[Strings.FMT_RECEIVE_MONEY] = "Vous recevez %s"
-    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Vous recevez %s pour %sx%s"
-    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Vous recevez %s pour %sx%s (%s chacun)"
+    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Vous recevez %s pour %s %s"
+    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Vous recevez %s pour %s %s (%s chacun)"
 
     L["Open All"] = "Ouvre tout"
     L["Collect"] = "Collecte"
@@ -200,14 +200,14 @@ elseif (LOCALE == "itIT") then
     L[Strings.AUCTION_SOLD_PREFIX] = "^Asta riuscita"
     L[Strings.AUCTION_WON_PREFIX] = "^Asta vinta"
 
-    L[Strings.FMT_PURCHASED_SINGLE] = "Hai comprato %sx%s per %s"
+    L[Strings.FMT_PURCHASED_SINGLE] = "Hai comprato %s %s per %s"
     L[Strings.FMT_PURCHASED_MULTIPLE] = "Hai comprato %s per %s ciascuno"
     L[Strings.FMT_EXPIRED_ITEM] = "Hai ricevuto: %s. scaduto Asta."
-    L[Strings.FMT_CANCELLED_ITEM] = "Hai ricevuto: %sx%s. Asta Annullato."
+    L[Strings.FMT_CANCELLED_ITEM] = "Hai ricevuto: %s %s. Asta Annullato."
 
     L[Strings.FMT_RECEIVE_MONEY] = "Ricevi %s"
-    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Ricevi %s per %sx%s"
-    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Ricevi %s per %sx%s (%s ciascuno)"
+    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Ricevi %s per %s %s"
+    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Ricevi %s per %s %s (%s ciascuno)"
 
     L["Open All"] = "aperto tutto"
     L["Collect"] = "Raccogliere"
@@ -236,14 +236,14 @@ elseif (LOCALE == "koKR") then
     L[Strings.AUCTION_SOLD_PREFIX] = "^경매 낙찰"
     L[Strings.AUCTION_WON_PREFIX] = "^경매 낙찰"
 
-    L[Strings.FMT_PURCHASED_SINGLE] = "나는 %sx%s를 사서 %s를 보냈다"
+    L[Strings.FMT_PURCHASED_SINGLE] = "나는 %s %s를 사서 %s를 보냈다"
     L[Strings.FMT_PURCHASED_MULTIPLE] = "당신은 %s를 구입하고 각각 %s를 보냈습니다"
     L[Strings.FMT_EXPIRED_ITEM] = "아이템을 획득했습니다: %s 경매 만료."
-    L[Strings.FMT_CANCELLED_ITEM] = "아이템을 획득했습니다: %sx%s 경매 취소."
+    L[Strings.FMT_CANCELLED_ITEM] = "아이템을 획득했습니다: %s %s 경매 취소."
 
     L[Strings.FMT_RECEIVE_MONEY] = "%s받습니다."
-    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "%s을 받음 : %sx%s를 판매 함"
-    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "%s을 받음 : %sx%s를 판매 함 (각 %s)"
+    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "%s을 받음 : %s %s를 판매 함"
+    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "%s을 받음 : %s %s를 판매 함 (각 %s)"
 
     L["Open All"] = "열기 모든"
     L["Collect"] = "수집"
@@ -272,14 +272,14 @@ elseif (LOCALE == "ptBR") then
     L[Strings.AUCTION_SOLD_PREFIX] = "^Leilão bem-sucedido"
     L[Strings.AUCTION_WON_PREFIX] = "^Leilão ganho"
 
-    L[Strings.FMT_PURCHASED_SINGLE] = "Você comprou a %sx%s por %s"
+    L[Strings.FMT_PURCHASED_SINGLE] = "Você comprou a %s %s por %s"
     L[Strings.FMT_PURCHASED_MULTIPLE] = "Você comprou a %s por %s cada"
     L[Strings.FMT_EXPIRED_ITEM] = "Você recebe o item: %s. leilão Expired."
-    L[Strings.FMT_CANCELLED_ITEM] = "Você recebe o item: %sx%s. leilão cancelado."
+    L[Strings.FMT_CANCELLED_ITEM] = "Você recebe o item: %s %s. leilão cancelado."
 
     L[Strings.FMT_RECEIVE_MONEY] = "Você recebe %s"
-    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Você recebe %s para %sx%s"
-    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Você recebe %s para %sx%s (%s cada)"
+    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Você recebe %s para %s %s"
+    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Você recebe %s para %s %s (%s cada)"
 
     L["Open All"] = "Abra tudo"
     L["Collect"] = "coletar"
@@ -308,14 +308,14 @@ elseif (LOCALE == "ruRU") then
     L[Strings.AUCTION_SOLD_PREFIX] = "^Аукцион состоялся"
     L[Strings.AUCTION_WON_PREFIX] = "^Вы выиграли торги"
 
-    L[Strings.FMT_PURCHASED_SINGLE] = "Вы купили %sx%s за %s"
+    L[Strings.FMT_PURCHASED_SINGLE] = "Вы купили %s %s за %s"
     L[Strings.FMT_PURCHASED_MULTIPLE] = "Вы купили %s за %s каждый"
     L[Strings.FMT_EXPIRED_ITEM] = "Вы получаете предмет: %s. Аукцион Expired."
-    L[Strings.FMT_CANCELLED_ITEM] = "Вы получаете предмет: %sx%s. Аукцион Отменено."
+    L[Strings.FMT_CANCELLED_ITEM] = "Вы получаете предмет: %s %s. Аукцион Отменено."
 
     L[Strings.FMT_RECEIVE_MONEY] = "Вы получаете %s"
-    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Вы получаете %s за %sx%s"
-    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Вы получаете %s за %sx%s (%s каждый)"
+    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "Вы получаете %s за %s %s"
+    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "Вы получаете %s за %s %s (%s каждый)"
 
     L["Open All"] = "Открыть все"
     L["Collect"] = "собирать"
@@ -344,14 +344,14 @@ elseif (LOCALE == "zhCN") then
     L[Strings.AUCTION_SOLD_PREFIX] = "^拍卖成功"
     L[Strings.AUCTION_WON_PREFIX] = "^竞拍获胜"
 
-    L[Strings.FMT_PURCHASED_SINGLE] = "你买了%sx%s并花了%s"
+    L[Strings.FMT_PURCHASED_SINGLE] = "你买了%s %s并花了%s"
     L[Strings.FMT_PURCHASED_MULTIPLE] = "你买了%s每个%s"
     L[Strings.FMT_EXPIRED_ITEM] = "你获得了物品：%s。 拍卖过期."
-    L[Strings.FMT_CANCELLED_ITEM] = "你获得了：%sx%s。 拍卖取消."
+    L[Strings.FMT_CANCELLED_ITEM] = "你获得了：%s %s。 拍卖取消."
 
     L[Strings.FMT_RECEIVE_MONEY] = "您收到%s"
-    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "您收到%s：已售出%sx%s"
-    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "您收到%s：已售出%sx%s（每个%s）"
+    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "您收到%s：已售出%s %s"
+    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "您收到%s：已售出%s %s（每个%s）"
 
     L["Open All"] = "打开所有"
     L["Collect"] = "搜集"
@@ -380,14 +380,14 @@ elseif (LOCALE == "zhTW") then
     L[Strings.AUCTION_SOLD_PREFIX] = "^拍賣成功"
     L[Strings.AUCTION_WON_PREFIX] = "^競拍獲勝"
 
-    L[Strings.FMT_PURCHASED_SINGLE] = "你買了%sx%s並花了%s"
+    L[Strings.FMT_PURCHASED_SINGLE] = "你買了%s %s並花了%s"
     L[Strings.FMT_PURCHASED_MULTIPLE] = "你買了%s每個%s"
     L[Strings.FMT_EXPIRED_ITEM] = "你獲得了物品:%s。 拍賣過期."
-    L[Strings.FMT_CANCELLED_ITEM] = "你獲得物品:%sx%s。 拍賣取消."
+    L[Strings.FMT_CANCELLED_ITEM] = "你獲得物品:%s %s。 拍賣取消."
 
     L[Strings.FMT_RECEIVE_MONEY] = "您收到%s"
-    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "您收到%s：已售出%sx%s"
-    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "您收到%s：已售出%sx%s（每個%s）"
+    L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM] = "您收到%s：已售出%s %s"
+    L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM] = "您收到%s：已售出%s %s（每個%s）"
 
     L["Open All"] = "打開所有"
     L["Collect"] = "蒐集"

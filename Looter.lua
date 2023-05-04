@@ -248,11 +248,11 @@ function Looter:do_loot_message(messageID)
                     if (itemCount == 1) then
                         text = string.format(L[Strings.FMT_RECEIVE_MONEY_SINGLE_ITEM],
                             --											 util.white(util.gold_format(money)),
-                            util.white(util.gold_format(unitPrice)) .. "|cFF00A800", itemLink)
+                            util.white(util.gold_format(unitPrice)) .. "|cFF00A800", itemLink, "")
                     else
                         text = string.format(L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM],
                             util.white(util.gold_format(money)), itemLink,
-                            (itemCount > 1 and (" x" .. itemCount) or ""),
+                            (itemCount > 1 and ("x" .. itemCount) or ""),
                             util.white(util.gold_format(unitPrice, false)))
                     end
                 else
