@@ -1,0 +1,33 @@
+## Interface: 11304
+## Title: GoPost
+## Version: 1.1
+## X-Website: http://mods.curse.com/wow/addons/gopost
+## X-Localizations: enUS, deDE, esES, esMX, frFR, itIT, koKR, pbBR, ruRU, zhCN, zhTW
+## Notes: A lightweight Inbox alternative with special features for Auction House mail.
+## SavedVariables: GoPostDB
+
+#
+# Copyright 2018-2020 Quarq
+# This file is part of GoPost.
+# GoPost is distributed under a BSD License.
+# It is provided AS-IS and all warranties, express or implied, including, but not
+# limited to, the implied warranties of merchantability or fitness for a particular
+# purpose, are disclaimed.  See the LICENSE file for full information.
+#
+
+Localization.lua
+
+GoPost.xml
+GoPost.lua
+
+Core.lua
+Util.lua
+Looter.lua
+
+SectionScroller.xml
+SectionScroller.lua
+
+Rows/HeaderRow.lua
+Rows/AuctionMessage.lua
+Rows/OtherMessage.lua
+

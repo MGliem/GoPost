@@ -1,0 +1,20 @@
+<!--
+Copyright 2018-2020, Quarq
+This file is part of GoPost.
+GoPost is distributed under a BSD License.
+It is provided AS-IS and all warranties, express or implied, including, but not
+limited to, the implied warranties of merchantability or fitness for a particular
+purpose, are disclaimed.  See the LICENSE file for full information.
+-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+    <Frame name="SectionScrollerTemplate" virtual="true">
+		<Scripts>
+			<OnLoad>
+				SectionScroller_OnLoad(self);
+			</OnLoad>
+			<OnMouseWheel>
+				SectionScroller_OnMouseWheel(self, delta);
+			</OnMouseWheel>
+		</Scripts>
+    </Frame>
+</Ui>

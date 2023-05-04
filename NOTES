@@ -1,0 +1,26 @@
+New in version 1.1
++ Support for Classic
+Pet cage attachments might look wrong.  Sorry.
++ Localizations for enUS, deDE, esES, esMX, frFR, itIT, koKR, ptBR, ruRU, zhCN, zhTW.
+These are intended to work for the addon's main UI: group names, special senders and subject text (e.g. auction house stuff), chat messages.
+They do NOT apply to configuration slash commands ("/gopost ...").  These are still enUS only.  Sorry.
+PLEASE LEAVE A COMMENT OR SEND A PM IF YOU CAN CORRECT ANY OF THESE TRANSLATIONS!
+
+New in version 1.01
++ GoPost can automatically expand groups containing messages when you open the mailbox.  You can configure this with:
+/gopost expand single (the default) expands a group if it's the only one with messages
+/gopost expand all expands all groups containing messages
+/gopost expand none won't automatically expand anything
+
+New in version 1.0
++ When looting money and items from Auction House mails, GoPost now prints specific messages like:
+You purchased [Arkhana]x10 for 8g 99s 99c each from OtherPlayer
+You receive cancelled item: [Arkhana]x10
+You receive expired item: [Arkhana]x10
+You receive 85g 49s 90c for [Arkhana]x10 at 8g 99s 99c each (SomeOtherPlayer)".
++ The modified chat messages are on by default.  You can turn them off for all groups with "/gopost chat none".  You can turn them back on with "/gopost chat all".
++ You can turn them off (or on) for a single group (e.g. Purchases) with "/gopost chat Purchases off".
++ Show a "?" icon on Sales messages when no real item icon is available.  This happens (rarely) when GetItemInfo(name) returns nil and no GET_ITEM_INFO_RECEIVED event ever fires.
++ Removed incorrect attachment count from Other messages that have no attachments.
++ Co-exists with Postal
++ new "/gopost version" prints the version number in the chat window
