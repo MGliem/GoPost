@@ -252,7 +252,7 @@ function Looter:do_loot_message(messageID)
                     else
                         text = string.format(L[Strings.FMT_RECEIVE_MONEY_MULTI_ITEM],
                             util.white(util.gold_format(money)), itemLink,
-                            (itemCount > 1 and ("x" .. itemCount) or ""),
+                            (itemCount > 1 and (" x" .. itemCount) or ""),
                             util.white(util.gold_format(unitPrice, false)))
                     end
                 else

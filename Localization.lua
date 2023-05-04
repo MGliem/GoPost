@@ -31,7 +31,7 @@ end
 --
 
 -- stack size on "Auction successful:" subject (like "... (20)")
-Strings.STACK_SIZE_PATTERN = "%((%s+)%)" -- NEVER NEEDS LOCALIZATION
+Strings.STACK_SIZE_PATTERN = "%((%d+)%)" -- NEVER NEEDS LOCALIZATION
 
 -- groups
 Strings.GROUP_SALES = "Sales"
